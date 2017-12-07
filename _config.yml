@@ -4,17 +4,16 @@
 markdown: kramdown
 highlighter: rouge
 paginate: 5
-language: 'en-uk'
+language: 'zh-cn'
 
 # Website info
-name: 'Finding The Way Home'
-description: "A beautiful narrative written with the world's most elegant publishing platform. The story begins here."
-
-short_url: 'myjekyll.github.io/jasper/'
-google_analytics: UA-69281367-1
+name: '欲说还休'
+description: "却道天凉好个秋"
+short_url: 'geph0rce.github.io'
+#google_analytics: UA-69281367-1
 disqus: username
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /jasper/
+baseurl: /
 
 # Permalinks
 permalink: /:title
@@ -46,13 +45,13 @@ exclude: [vendor]
 # or "master" otherwise
 safe: false
 lsi: false
-username: myjekyll
-repo: jasper
+username: Geph0rce
+repo: blog
 branch: master
 relative_source: ../jasper/
-destination: ../jasper-pages/
-production_url:  https://myjekyll.github.io/jasper/
-source_url:  https://github.com/myjekyll/jasper/
+destination: ../site/
+production_url:  https://geph0rce.github.io
+source_url:  https://github.com/Geph0rce/blog
 
 exclude:
   - README.md
