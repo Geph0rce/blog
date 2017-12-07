@@ -9,6 +9,7 @@ subclass: 'post tag-test tag-content'
 logo: 'assets/images/ghost.png'
 author: casper
 categories: casper
+disqus: True
 ---
 
 {% highlight objc %}

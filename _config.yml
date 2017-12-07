@@ -11,7 +11,7 @@ name: '欲说还休'
 description: "却道天凉好个秋"
 short_url: 'geph0rce.github.io'
 #google_analytics: UA-69281367-1
-disqus: username
+disqus: geph0rce
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: /
 
