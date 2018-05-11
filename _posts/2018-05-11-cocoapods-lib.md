@@ -2,8 +2,8 @@
 layout: post
 cover: 'assets/images/cover3.jpg'
 navigation: True
-title: A Full and Comprehensive Style Test
-date: 2014-09-27 10:18:00
+title: 使用 CocoaPods 创建私有库
+date: 2018-05-11 16:28:00
 tags: test content
 subclass: 'post tag-test tag-content'
 logo: 'assets/images/ghost.png'
