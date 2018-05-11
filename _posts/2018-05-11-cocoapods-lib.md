@@ -1,17 +1,17 @@
 ---
 layout: post
 cover: 'assets/images/cover3.jpg'
-navigation: True
-title: 使用 CocoaPods 创建私有库
-date: 2018-05-11 16:28:00
-tags: test content
-subclass: 'post tag-test tag-content'
+navigation: true
+title: 使用CocoaPods创建私有库
+date: 2018-05-10 16:56:00
+tags: fables fiction
+subclass: 'post tag-iOS tag-content'
 logo: 'assets/images/ghost.png'
 author: casper
 categories: casper
+disqus: true
 ---
 
-### 使用 CocoaPods 创建私有库
 
 #### 添加私有仓库
 
@@ -56,7 +56,7 @@ $ pod spec lint [NAME.podspec|DIRECTORY|http://PATH/NAME.podspec ...]
 
 #### tips
 
-如果Lib里面依赖了不同仓库的Pod，`pod lib lint` `pod spec lint` 的时候需要添加 `--sources` 参数
+如果Lib里面依赖了不同仓库的Pod, pod lib lint, pod spec lint 的时候需要添加 --sources 参数
 
 {% highlight objc %}
 pod lib lint pod.podspec --sources=https://github.com/CocoaPods/Specs.git,192.168.0.100/CocoaPods/Specs.git
@@ -72,7 +72,7 @@ function podpush() { pod repo push $@ --sources=https://github.com/CocoaPods/Spe
 
 {% endhighlight %}
 
-调用方式
+使用方式
 
 {% highlight objc %}
 
