@@ -1,10 +1,8 @@
 ---
-title: zeplin
+title: Zeplin
 date: 2018-10-17 17:14:57
 tags:
 ---
-
-# Zeplin
 
 [https://zeplin.io/](https://zeplin.io/)
 
